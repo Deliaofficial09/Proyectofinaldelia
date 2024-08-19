@@ -1,0 +1,92 @@
+body{
+    font-family:calibri;
+    background-color: #faf8f8;
+    box-sizing: border-box;
+   
+    
+    
+   
+}
+
+.gracias{
+    background-color: white;
+    width: 800;
+    text-align: center;
+}
+        
+      
+        form {
+            background-color: rgb(0, 84, 112);
+            border-radius: 55px;
+            color:#fefefe;
+            font-size: 18px;
+            padding: 15px;
+            margin: auto;
+            width: 400px;
+            
+            
+
+            }
+
+
+            h1{
+                outline: none;
+                border: 0;
+                width: 450px;
+                text-align: center; 
+
+            }
+
+            .deli{
+                border: solid 1px #000000;
+                padding: 10px;
+                width: 100%;
+                border-radius: 10px;
+               
+               
+
+            }
+
+            .deli:focus{
+                background-color: #08005c;
+
+            }
+
+            .center-content{
+                text-align: center;
+                height: 50px;
+                font-size: 20px;
+                text-decoration: none;
+                background: #08005c;
+                padding: 10px;
+                
+            }
+
+
+            .borrar{
+                text-align: center;
+                height: 50px;
+                font-size: 20px;
+                text-decoration: none;
+                background: #08005c;
+                padding: 10px;
+                font-family:calibri;
+        
+            }
+
+
+            .nav__img{
+                text-align: center;
+            }
+         
+
+
+
+
+
+
+
+
+
+        
+           

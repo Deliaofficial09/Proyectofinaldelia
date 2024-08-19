@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sugerencias</title>
+    <link rel="stylesheet" href="css/estiloform.css" type="text/css">
+    <link rel="shortcut icon" href="./images/descarga.png" type="image/x-icon">
+    <script lenguage='javascript'>
+        function validar(){
+            Nombre = document.getElementById("nombre1").value;
+            
+            if(Nombre == "")
+            {
+              alert("Dejaste el espacio de nombre vacio !")   
+              return false;
+            }
+
+            Ubicación = document.getElementById("Ubicacion1").value;
+
+             if( Ubicación == ""){
+
+             alert("Tienes que poner tu ubicacion !")   
+             return false;
+            }
+
+            
+            Ingresefalladetectada= document.getElementById("falla1").value;
+
+             if(Ingresefalladetectada == ""){
+
+             alert("Tiene que poner sus importancias !")   
+             return false;
+            }
+
+
+            Adjuntarimagen= document.getElementById("imagen").value;
+
+            if(Adjuntarimagen == ""){
+  
+              alert("Tienes que poner tu imagen !")   
+             return false;
+              }
+
+
+            
+           
+           
+
+         
+
+
+        }
+
+        
+
+        
+
+
+
+
+    </script>
+  
+  </head>
+
+
+    <div>
+       
+      
+            
+      <form onsubmit="return validar()" action="Gracias por enviar.html" method="post">
+    
+
+  
+      
+        <h1>Formulario </h1>
+        <br>
+   
+        <h3>Nombre</h3>
+        <input type="text" id="nombre1"  name="msj" placeholder="Ingrese su nombre" class="deli">
+  
+        
+        <h3> Ubicación</h3>
+        <input type="text" id="Ubicacion1" placeholder="Ingrese su ubicacion" class="deli">
+
+        <h3>Porque es importantes el software</h3>
+        <input type="text" id="falla1" placeholder="Escriba sus importancias " class="deli">
+
+        <label for="imagen"><h3>Adjuntar imagen</h3></label>
+        <input type="file" id="imagen" name="imagen">
+
+         <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" class="center-content"> 
+         <input type="reset" value="Borrar" class="borrar">
+        
+        
+
+        <footer class="todopie"><br>
+       
+            <div>
+             
+            </div>
+            
+
+    
+      </form>
+
+    </div>
+    
+    
+  </body>
+
+
+</html>
